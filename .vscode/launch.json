@@ -1,0 +1,168 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FirstScript",
+            "request": "launch",
+            "mainClass": "FirstScript",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "org.example.Main",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "Assignment2",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.Assignment2",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "Assignment3",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.Assignment3",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "Assignment4",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.Assignment4",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "ClickMethods",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.ClickMethods",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "DeselectMethod",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.DeselectMethod",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "FinalProject",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.FinalProject",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "FindElementMethod",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.FindElementMethod",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "FindElementsMethod",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.FindElementsMethod",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "Ignore",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.Ignore",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "OptionsMethod",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.OptionsMethod",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "RegisterAccount",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.RegisterAccount",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "SwitchToMethods",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.SwitchToMethods",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "WebELementMethods",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.WebELementMethods",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "WindowhandleMethod",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.WindowhandleMethod",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "Windowsmethod",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.Windowsmethod",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "XpathSelectorMethod",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.XpathSelectorMethod",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "getAttributeMethod",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.getAttributeMethod",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "getTextMethods",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.getTextMethods",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "isDisplayedMethods",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.isDisplayedMethods",
+            "projectName": "SeleniumJavaTraining"
+        },
+        {
+            "type": "java",
+            "name": "selectMethods",
+            "request": "launch",
+            "mainClass": "org.examples.assignments.selectMethods",
+            "projectName": "SeleniumJavaTraining"
+        }
+    ]
+}
