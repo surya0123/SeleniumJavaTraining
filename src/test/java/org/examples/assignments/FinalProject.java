@@ -6,6 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FinalProject {
     public static void main(String[] args) {
+
         System.setProperty("webdriver.chrome.driver","src/test/resources/drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://tutorialsninja.com/demo/");
@@ -16,7 +17,6 @@ public class FinalProject {
         //---------------
 //Entering details------------
         driver.findElement(By.id("input-email")).sendKeys("rajubhai222@gmail.com");
-        driver.findElement(By.id("input-password")).sendKeys("12334565");
         driver.findElement(By.xpath("//input[@ type=\"submit\"]")).click();
         //---------------------
         driver.findElement(By.xpath("(//a[@ class=\"dropdown-toggle\"])[3]")).click();
@@ -46,7 +46,7 @@ public class FinalProject {
             System.out.println("Its matching");
         }
         else {
-            System.out.println("Its not matching");
+            System.out.println("ITS not matching");
         }
         //-----------------------------------
         //Checkout

@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.security.Key;
 import java.util.concurrent.TimeUnit;
 
 public class Ignore {
@@ -21,6 +22,8 @@ public class Ignore {
         driver.findElement(By.id("nav-search-submit-button")).click();
         driver.findElement(By.xpath("(//i[@class=\"a-icon a-icon-checkbox\"])[5]")).click();
         driver.findElement(By.xpath("(//i[@class=\"a-icon a-icon-checkbox\"])[21]")).click();
+        driver.findElement(By.id("")).click();
+
 
     }
 }
