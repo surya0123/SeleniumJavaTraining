@@ -10,11 +10,13 @@ public class getTextMethods {
         System.setProperty("webdriver.chrome.driver","src/test/resources/drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/v1/");
+        driver.manage().window().maximize();
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
         driver.findElement(By.id("password")).sendKeys(Keys.ENTER);
         String text = driver.findElement(By.xpath("//div[@class=\"product_label\"]")).getText();
-        if(text.equals("Products")){
+        if(text.equals("Products3" +
+                "")){
             System.out.println("its matching");
         }
         else {
